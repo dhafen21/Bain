@@ -39,6 +39,7 @@ function generateHTML(parentElement, curObject, id) {
     }
 }
 
+//Calls the recurisve functions that creates the HTML and then adds it to the document
 function addHTML() {
     //Main outer div that contains all the information
     const mainDiv = document.createElement('div');
