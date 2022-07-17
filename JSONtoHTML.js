@@ -1,3 +1,4 @@
+//generate a unique ID
 function createID(key, id) {
     if (key in id) {
         id[key]++;
@@ -8,6 +9,7 @@ function createID(key, id) {
     return id[key];
 }
 
+//Create the element that actually contains text content
 function createContentElement(curObject, key, id) {
     console.log(key);
     newElement = document.createElement("div");
