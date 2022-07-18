@@ -11,7 +11,6 @@ function createID(key, id) {
 
 //Create the element that actually contains text content
 function createContentElement(curObject, key, id) {
-    console.log(key);
     newElement = document.createElement("div");
     newElement.textContent = curObject[key];
     newElement.classList.add(key);
